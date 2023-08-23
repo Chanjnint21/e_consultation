@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import AuthLayout from '../views/Layout/AuthLayout.vue'
+import IntroScreen from '../views/Introduction.vue'
 
 Vue.use(VueRouter)
 
@@ -8,7 +9,11 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: AuthLayout,
+    children: [{
+      path: '',
+      component: IntroScreen
+    }]
   },
   {
     path: '/about',
