@@ -2,7 +2,7 @@
   <v-main>
   <v-container class="px-10" fluid>
     <v-row>
-      <v-col cols="6" class="d-flex align-center justify-start">
+      <v-col cols="6" class="d-flex align-center justify-start pl-16">
         <v-row no-gutters>
           <v-col cols="12">
             <h1><span style="color: #365BC2">Fastest Way</span> for Health Check</h1>
