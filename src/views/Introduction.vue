@@ -11,7 +11,8 @@
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printe.</p>
           </v-col>
           <v-col cols="12">
-            <v-btn color="#E84D72" class="white--text"> Get start <v-icon>mdi-chevron-right</v-icon></v-btn>
+            <v-btn color="#E84D72" class="white--text"> Get start <v-icon>mdi-chevron-right</v-icon>
+            </v-btn>
           </v-col>
         </v-row>
       </v-col>
@@ -63,7 +64,7 @@
             <v-col class="text-center">
               <p>
                 <span style="color: #E84D72">
-                  Chansovanmony youen
+                  Chansovanmony yoeun
                 </span>
                 , An Information Technology Engineering student in Royal
                 University of Phnom Penh.
@@ -181,12 +182,13 @@
 </template>
 
 <script>
+
   export default {
     name: 'IntroView',
     data() {
       return {
         memberList: [
-          { name: 'Chansovamony Youen', image:'../assets/Members/Mony.jpg', details: 'An Information Technology Engineering student in RoyalUniversity of Phnom Penh.'},
+          { name: 'Chansovamony Yoeun', image:'../assets/Members/Mony.jpg', details: 'An Information Technology Engineering student in RoyalUniversity of Phnom Penh.'},
           { name: 'Vitou Hun', image:'../assets/Members/Vitou.jpg', details: 'An Information Technology Engineering student in RoyalUniversity of Phnom Penh.'},
           { name: 'Chanjnint Lim', image:'Jnint.jpg', details: 'An Information Technology Engineering student in RoyalUniversity of Phnom Penh.'},
           { name: 'Hok Soy', image:'Hok.jpg', details: 'An Information Technology Engineering student in RoyalUniversity of Phnom Penh.'}
